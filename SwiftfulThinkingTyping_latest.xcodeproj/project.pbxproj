@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		381995DE29B3257A005D7D19 /* InitAndEnumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381995DD29B3257A005D7D19 /* InitAndEnumView.swift */; };
+		381995E029B33E7B005D7D19 /* InitAndEnumView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381995DF29B33E7B005D7D19 /* InitAndEnumView2.swift */; };
 		3821BE3629B02EE0007F108D /* StacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821BE3529B02EE0007F108D /* StacksView.swift */; };
 		3821BE3829B02EF5007F108D /* StackZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821BE3729B02EF5007F108D /* StackZ.swift */; };
 		3821BE3A29B02EFC007F108D /* StackV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821BE3929B02EFC007F108D /* StackV.swift */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		381995DD29B3257A005D7D19 /* InitAndEnumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitAndEnumView.swift; sourceTree = "<group>"; };
+		381995DF29B33E7B005D7D19 /* InitAndEnumView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitAndEnumView2.swift; sourceTree = "<group>"; };
 		3821BE3529B02EE0007F108D /* StacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksView.swift; sourceTree = "<group>"; };
 		3821BE3729B02EF5007F108D /* StackZ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackZ.swift; sourceTree = "<group>"; };
 		3821BE3929B02EFC007F108D /* StackV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackV.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				389C9F0429A5D0BB00020F75 /* TextView.swift */,
 				3821BE3529B02EE0007F108D /* StacksView.swift */,
 				381995DD29B3257A005D7D19 /* InitAndEnumView.swift */,
+				381995DF29B33E7B005D7D19 /* InitAndEnumView2.swift */,
 				3821BE3D29B0797B007F108D /* PaddingView.swift */,
 				3821BE3F29B089F8007F108D /* SpacerView.swift */,
 				3821BE4129B08C7A007F108D /* SpacerView2.swift */,
@@ -216,6 +219,7 @@
 				389C9F0529A5D0BB00020F75 /* TextView.swift in Sources */,
 				3821BE3A29B02EFC007F108D /* StackV.swift in Sources */,
 				3821BE4029B089F8007F108D /* SpacerView.swift in Sources */,
+				381995E029B33E7B005D7D19 /* InitAndEnumView2.swift in Sources */,
 				38BB675229AF2A5C00B406A3 /* ImageView.swift in Sources */,
 				3821BE4229B08C7A007F108D /* SpacerView2.swift in Sources */,
 				3821BE4429B08CEC007F108D /* PaddingView2.swift in Sources */,
