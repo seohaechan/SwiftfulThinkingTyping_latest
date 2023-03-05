@@ -57,6 +57,11 @@ struct InitAndEnumView: View {
 
 struct InitAndEnumView_Previews: PreviewProvider {
     static var previews: some View {
-        InitAndEnumView(count: 55, title: .orange)
+        HStack{
+            InitAndEnumView(count: 55, title: .orange)
+            InitAndEnumView(count: 55, title: .orange)
+
+        }
+
     }
 }
