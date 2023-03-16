@@ -39,8 +39,11 @@
 		3857D5E529B5922200E4D371 /* ScrollViewView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3857D5E429B5922200E4D371 /* ScrollViewView2.swift */; };
 		3857D5E729B5939B00E4D371 /* ScrollViewView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3857D5E629B5939B00E4D371 /* ScrollViewView3.swift */; };
 		3857D5E929B5993D00E4D371 /* ScrollViewView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3857D5E829B5993D00E4D371 /* ScrollViewView4.swift */; };
+		385A511729B9EBE000D3660F /* BindingView6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385A511629B9EBE000D3660F /* BindingView6.swift */; };
 		3880D2F629B85C8D0059294C /* TernaryOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3880D2F529B85C8D0059294C /* TernaryOperator.swift */; };
 		3880D2F829B865740059294C /* BindingView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3880D2F729B865740059294C /* BindingView5.swift */; };
+		3880D2FA29B9BDA10059294C /* Runners_11th_Study.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3880D2F929B9BDA10059294C /* Runners_11th_Study.swift */; };
+		3880D2FC29B9C6C10059294C /* TernaryOperatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3880D2FB29B9C6C10059294C /* TernaryOperatorView.swift */; };
 		389C9EF729A5D0A500020F75 /* SwiftfulThinkingTyping_latestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C9EF629A5D0A500020F75 /* SwiftfulThinkingTyping_latestApp.swift */; };
 		389C9EF929A5D0A500020F75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C9EF829A5D0A500020F75 /* ContentView.swift */; };
 		389C9EFB29A5D0A600020F75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 389C9EFA29A5D0A600020F75 /* Assets.xcassets */; };
@@ -57,6 +60,7 @@
 		38BB675029ADD12D00B406A3 /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BB674F29ADD12D00B406A3 /* IconView.swift */; };
 		38BB675229AF2A5C00B406A3 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BB675129AF2A5C00B406A3 /* ImageView.swift */; };
 		38BB675429AF324F00B406A3 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BB675329AF324F00B406A3 /* FrameView.swift */; };
+		38CF8DC729BCAD8600BB6E18 /* 스티브 질문사항.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CF8DC629BCAD8600BB6E18 /* 스티브 질문사항.swift */; };
 		38FE147929B475CC00AC483C /* ForEachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FE147829B475CC00AC483C /* ForEachView.swift */; };
 		38FE147B29B4780E00AC483C /* ForEachView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FE147A29B4780E00AC483C /* ForEachView2.swift */; };
 /* End PBXBuildFile section */
@@ -94,9 +98,12 @@
 		3857D5E429B5922200E4D371 /* ScrollViewView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewView2.swift; sourceTree = "<group>"; };
 		3857D5E629B5939B00E4D371 /* ScrollViewView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewView3.swift; sourceTree = "<group>"; };
 		3857D5E829B5993D00E4D371 /* ScrollViewView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewView4.swift; sourceTree = "<group>"; };
+		385A511629B9EBE000D3660F /* BindingView6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView6.swift; sourceTree = "<group>"; };
 		3866385129AA31A4007250E9 /* SwiftfulThinkingTyping-latest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftfulThinkingTyping-latest-Info.plist"; sourceTree = SOURCE_ROOT; };
 		3880D2F529B85C8D0059294C /* TernaryOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryOperator.swift; sourceTree = "<group>"; };
 		3880D2F729B865740059294C /* BindingView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView5.swift; sourceTree = "<group>"; };
+		3880D2F929B9BDA10059294C /* Runners_11th_Study.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runners_11th_Study.swift; sourceTree = "<group>"; };
+		3880D2FB29B9C6C10059294C /* TernaryOperatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryOperatorView.swift; sourceTree = "<group>"; };
 		389C9EF329A5D0A500020F75 /* SwiftfulThinkingTyping_latest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulThinkingTyping_latest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		389C9EF629A5D0A500020F75 /* SwiftfulThinkingTyping_latestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingTyping_latestApp.swift; sourceTree = "<group>"; };
 		389C9EF829A5D0A500020F75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,6 +121,7 @@
 		38BB674F29ADD12D00B406A3 /* IconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
 		38BB675129AF2A5C00B406A3 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		38BB675329AF324F00B406A3 /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
+		38CF8DC629BCAD8600BB6E18 /* 스티브 질문사항.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "스티브 질문사항.swift"; sourceTree = "<group>"; };
 		38FE147829B475CC00AC483C /* ForEachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachView.swift; sourceTree = "<group>"; };
 		38FE147A29B4780E00AC483C /* ForEachView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -168,7 +176,11 @@
 				3845C24129B6FF80004FDF42 /* BindingView2.swift */,
 				3845C24329B703F0004FDF42 /* BindingView3.swift */,
 				3846BFCD29B75B3C00AE8C11 /* BindingView4.swift */,
+				38CF8DC629BCAD8600BB6E18 /* 스티브 질문사항.swift */,
 				3880D2F729B865740059294C /* BindingView5.swift */,
+				385A511629B9EBE000D3660F /* BindingView6.swift */,
+				3880D2F929B9BDA10059294C /* Runners_11th_Study.swift */,
+				3880D2FB29B9C6C10059294C /* TernaryOperatorView.swift */,
 				38257D1E29B5D3DD00469FFE /* IgonoreSafeAreaAndEdgesIgnoringSafeAreaView.swift */,
 				3845C23529B5D68D004FDF42 /* ButtonView.swift */,
 				3846BFC729B4CBE900AE8C11 /* TrafficLightView.swift */,
@@ -289,14 +301,17 @@
 				3845C23629B5D68D004FDF42 /* ButtonView.swift in Sources */,
 				3821BE3E29B0797B007F108D /* PaddingView.swift in Sources */,
 				3846BFC029B483CF00AE8C11 /* InitAndEnumView6.swift in Sources */,
+				385A511729B9EBE000D3660F /* BindingView6.swift in Sources */,
 				389C9F0B29A601FA00020F75 /* ColorView.swift in Sources */,
 				3845C23829B5EF23004FDF42 /* StateView.swift in Sources */,
 				389C9F0D29A723DC00020F75 /* repeat0222.swift in Sources */,
 				3821BE3C29B02F02007F108D /* StackH.swift in Sources */,
 				3821BE4629B08F76007F108D /* PaddingView3.swift in Sources */,
 				38257D1F29B5D3DD00469FFE /* IgonoreSafeAreaAndEdgesIgnoringSafeAreaView.swift in Sources */,
+				3880D2FC29B9C6C10059294C /* TernaryOperatorView.swift in Sources */,
 				389C9F0929A5F3A700020F75 /* ShapeTrimView.swift in Sources */,
 				381995DE29B3257A005D7D19 /* InitAndEnumView.swift in Sources */,
+				3880D2FA29B9BDA10059294C /* Runners_11th_Study.swift in Sources */,
 				389C9F0529A5D0BB00020F75 /* TextView.swift in Sources */,
 				3821BE3A29B02EFC007F108D /* StackV.swift in Sources */,
 				3845C23C29B5FC33004FDF42 /* HowToExtractSubviews.swift in Sources */,
@@ -312,6 +327,7 @@
 				381995E029B33E7B005D7D19 /* InitAndEnumView2.swift in Sources */,
 				38257D1D29B5C71C00469FFE /* LazyVGrid.swift in Sources */,
 				38BB675229AF2A5C00B406A3 /* ImageView.swift in Sources */,
+				38CF8DC729BCAD8600BB6E18 /* 스티브 질문사항.swift in Sources */,
 				3821BE4229B08C7A007F108D /* SpacerView2.swift in Sources */,
 				3821BE4429B08CEC007F108D /* PaddingView2.swift in Sources */,
 				3846BFC629B4910700AE8C11 /* PracticeView.swift in Sources */,

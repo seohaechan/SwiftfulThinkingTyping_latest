@@ -2,40 +2,33 @@
 //  TernaryOperatorView.swift
 //  SwiftfulThinkingTyping_latest
 //
-//  Created by root on 2023/03/07.
+//  Created by root on 2023/03/09.
 //
 
 import SwiftUI
 
 struct TernaryOperatorView: View {
-    
-    @State var booleanValue: Bool = false
-    
+    @State var roundedRectangleColor: Color = .black
     var body: some View {
-
-        VStack {
-            
-            Text(booleanValue.description)
-                .font(.largeTitle)
-                .bold()
-            
+        VStack(spacing: 20){
+            RoundedRectangle(cornerRadius: 25)
+                .frame(width: 300, height: 300)
+                .foregroundColor(roundedRectangleColor)
             Button {
-                booleanValue ? booleanValue.toggle() : booleanValue.toggle()
-                //이 부분이 삼항연산자가 사용된 부분이다.
+                if roundedRectangleColor == .black {
+                    roundedRectangleColor = .red
+                }else if roundedRectangleColor == .red {
+                    roundedRectangleColor = .blue
+                }else{
+                    roundedRectangleColor = .red
+                }
             } label: {
-                RoundedRectangle(cornerRadius: 25)
-                    .frame(width: 100, height: 50)
-                    .shadow(color: .blue, radius: 10, x: 5, y: 5)
-                    .overlay(
-                    Text("button")
-                        .foregroundColor(.white)
-                    )
+                Text("click me")
+                    .foregroundColor(.black)
+                    .font(.system(size: 25))
+                    .bold()
             }
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(
-            Color.gray
-        )
     }
 }
 
