@@ -20,6 +20,7 @@
 		381835EF29CBDB7E00E878D5 /* TransitionView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381835EE29CBDB7E00E878D5 /* TransitionView2.swift */; };
 		381835F129CBDC8600E878D5 /* TransitionView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381835F029CBDC8600E878D5 /* TransitionView3.swift */; };
 		381835F329CBDDA200E878D5 /* TransitionView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381835F229CBDDA200E878D5 /* TransitionView4.swift */; };
+		381835F529CBE14C00E878D5 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381835F429CBE14C00E878D5 /* SheetView.swift */; };
 		381995DE29B3257A005D7D19 /* InitAndEnumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381995DD29B3257A005D7D19 /* InitAndEnumView.swift */; };
 		381995E029B33E7B005D7D19 /* InitAndEnumView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381995DF29B33E7B005D7D19 /* InitAndEnumView2.swift */; };
 		381995E229B3476A005D7D19 /* InitAndEnumView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381995E129B34769005D7D19 /* InitAndEnumView3.swift */; };
@@ -92,6 +93,7 @@
 		381835EE29CBDB7E00E878D5 /* TransitionView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView2.swift; sourceTree = "<group>"; };
 		381835F029CBDC8600E878D5 /* TransitionView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView3.swift; sourceTree = "<group>"; };
 		381835F229CBDDA200E878D5 /* TransitionView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView4.swift; sourceTree = "<group>"; };
+		381835F429CBE14C00E878D5 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
 		381995DD29B3257A005D7D19 /* InitAndEnumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitAndEnumView.swift; sourceTree = "<group>"; };
 		381995DF29B33E7B005D7D19 /* InitAndEnumView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitAndEnumView2.swift; sourceTree = "<group>"; };
 		381995E129B34769005D7D19 /* InitAndEnumView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitAndEnumView3.swift; sourceTree = "<group>"; };
@@ -250,6 +252,7 @@
 				381835EE29CBDB7E00E878D5 /* TransitionView2.swift */,
 				381835F029CBDC8600E878D5 /* TransitionView3.swift */,
 				381835F229CBDDA200E878D5 /* TransitionView4.swift */,
+				381835F429CBE14C00E878D5 /* SheetView.swift */,
 				389C9EFA29A5D0A600020F75 /* Assets.xcassets */,
 				389C9EFC29A5D0A600020F75 /* Preview Content */,
 			);
@@ -384,6 +387,7 @@
 				3857D5E929B5993D00E4D371 /* ScrollViewView4.swift in Sources */,
 				3821BE3829B02EF5007F108D /* StackZ.swift in Sources */,
 				38BB675029ADD12D00B406A3 /* IconView.swift in Sources */,
+				381835F529CBE14C00E878D5 /* SheetView.swift in Sources */,
 				3845C24429B703F0004FDF42 /* BindingView3.swift in Sources */,
 				389C9F0729A5DDF700020F75 /* ShapeView.swift in Sources */,
 				3846BFC829B4CBE900AE8C11 /* TrafficLightView.swift in Sources */,
