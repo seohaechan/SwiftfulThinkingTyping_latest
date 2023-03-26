@@ -14,10 +14,9 @@ struct AlertView3: View {
             Button("button one") {
                 alertButton.toggle()
             }
-            
-            }
         }
     }
+}
 
 
 struct AlertView3_Previews: PreviewProvider {
