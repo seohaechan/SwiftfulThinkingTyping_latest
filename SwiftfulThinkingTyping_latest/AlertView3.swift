@@ -8,12 +8,19 @@
 import SwiftUI
 
 struct AlertView3: View {
+    enum ErrorCase{
+        case errorOne
+        case errorTwo
+        case errorThree
+    }
     @State var alertButton: Bool = false
     var body: some View {
         VStack{
             Button("button one") {
                 alertButton.toggle()
             }
+            .alert(isPresented: $alertButton, content: {Alert(title: Text("title"), dismissButton: .cancel(Text("hello")))})
+            
         }
     }
 }
