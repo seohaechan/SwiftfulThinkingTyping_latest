@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftfulThinkingTyping_latestApp: App {
     var body: some Scene {
         WindowGroup {
-            StateView()
+            SliderView3()
         }
     }
 }

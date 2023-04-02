@@ -84,6 +84,7 @@
 		389C9F0D29A723DC00020F75 /* repeat0222.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C9F0C29A723DC00020F75 /* repeat0222.swift */; };
 		389C9F0F29A765AC00020F75 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C9F0E29A765AC00020F75 /* GradientView.swift */; };
 		389C9F1129A771A900020F75 /* GradientPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389C9F1029A771A900020F75 /* GradientPractice.swift */; };
+		38AD0AF629D7136F001B97F8 /* SliderView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AD0AF529D7136F001B97F8 /* SliderView3.swift */; };
 		38ADA63929AF4058001E03C4 /* BackgroundAndOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ADA63829AF4058001E03C4 /* BackgroundAndOverlayView.swift */; };
 		38ADA63B29AF5F02001E03C4 /* BackgroundAndOverlayView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ADA63A29AF5F02001E03C4 /* BackgroundAndOverlayView2.swift */; };
 		38BB675029ADD12D00B406A3 /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BB674F29ADD12D00B406A3 /* IconView.swift */; };
@@ -189,6 +190,7 @@
 		389C9F0C29A723DC00020F75 /* repeat0222.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = repeat0222.swift; sourceTree = "<group>"; };
 		389C9F0E29A765AC00020F75 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		389C9F1029A771A900020F75 /* GradientPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientPractice.swift; sourceTree = "<group>"; };
+		38AD0AF529D7136F001B97F8 /* SliderView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView3.swift; sourceTree = "<group>"; };
 		38ADA63829AF4058001E03C4 /* BackgroundAndOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlayView.swift; sourceTree = "<group>"; };
 		38ADA63A29AF5F02001E03C4 /* BackgroundAndOverlayView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlayView2.swift; sourceTree = "<group>"; };
 		38BB674F29ADD12D00B406A3 /* IconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
@@ -343,6 +345,7 @@
 				38C708DB29D6C9B30031B734 /* StepperView2.swift */,
 				38C708DD29D6CC1C0031B734 /* SliderView.swift */,
 				38C708DF29D6D31D0031B734 /* SliderView2.swift */,
+				38AD0AF529D7136F001B97F8 /* SliderView3.swift */,
 				389C9EFA29A5D0A600020F75 /* Assets.xcassets */,
 				389C9EFC29A5D0A600020F75 /* Preview Content */,
 			);
@@ -438,6 +441,7 @@
 				386A8A1429D3FFF8003AFD3A /* TextFieldView3.swift in Sources */,
 				38C708DE29D6CC1C0031B734 /* SliderView.swift in Sources */,
 				3821BE3E29B0797B007F108D /* PaddingView.swift in Sources */,
+				38AD0AF629D7136F001B97F8 /* SliderView3.swift in Sources */,
 				381835E929CABC7700E878D5 /* AnimationAndWithAnimationView.swift in Sources */,
 				381835E529CAAF9000E878D5 /* AnimationCurveView.swift in Sources */,
 				3846BFC029B483CF00AE8C11 /* InitAndEnumView6.swift in Sources */,

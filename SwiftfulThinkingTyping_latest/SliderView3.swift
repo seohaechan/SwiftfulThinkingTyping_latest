@@ -1,13 +1,13 @@
 //
-//  SliderView2.swift
+//  SliderView3.swift
 //  SwiftfulThinkingTyping_latest
 //
-//  Created by root on 2023/03/31.
+//  Created by root  on 2023/03/31.
 //
 
 import SwiftUI
 
-struct SliderView2: View {
+struct SliderView3: View {
     @State var sliderValue: Double = 3
     var body: some View {
         NavigationStack{
@@ -39,7 +39,7 @@ struct SliderView2: View {
                             .frame(width: 140, alignment: .leading)
                             .font(.largeTitle)
                             .fontWeight(.heavy)
-                            
+                        
                         Text(String(format: "%.1f", sliderValue) + "\n점 입니다.")
                             .font(.largeTitle)
                             .fontWeight(.heavy)
@@ -60,53 +60,59 @@ struct SliderView2: View {
                             Text("5")
                                 .bold()
                         }
-                        )
+                    )
                     .tint(.yellow)
                     .padding(.horizontal, 30)
                     .padding(.top, 300)
                     
                 }
                 .navigationTitle("Rate the content")
-                
-                if sliderValue < 3.0 {
-                    ZStack{
-                        RoundedRectangle(cornerRadius: 15)
-                            .frame(width: 250, height: 100)
-                            .foregroundColor(.white)
-                            .shadow(radius: 7, x: 7, y: 7)
-                        VStack {
-                            Text("😟")
-                                .font(.largeTitle)
-                                .padding(.bottom, 10)
+                ZStack{
+                    if sliderValue < 3.0 {
+                        ZStack{
+                            RoundedRectangle(cornerRadius: 15)
+                                .frame(width: 250, height: 100)
+                                .foregroundColor(.white)
+                                .shadow(radius: 7, x: 7, y: 7)
+                            VStack {
+                                Text("😟")
+                                    .font(.largeTitle)
+                                    .padding(.bottom, 10)
                                 
-                            Text("컨텐츠가 마음에 들지 않으셨나요?")
-                                .fontWeight(.heavy)
+                                Text("컨텐츠가 마음에 들지 않으셨나요?")
+                                    .fontWeight(.heavy)
+                            }
                         }
-                    }
-                    
-                }else if sliderValue == 5 {
-                    ZStack{
-                        RoundedRectangle(cornerRadius: 15)
-                            .frame(width: 250, height: 100)
-                            .foregroundColor(.white)
-                            .shadow(radius: 7, x: 7, y: 7)
-                        VStack {
-                            Text("🤗")
-                                .font(.largeTitle)
-                                .padding(.bottom, 10)
+//                        .animation(.spring(), value: sliderValue)
+                        
+                    } else if sliderValue == 5 {
+                        ZStack{
+                            RoundedRectangle(cornerRadius: 15)
+                                .frame(width: 250, height: 100)
+                                .foregroundColor(.white)
+                                .shadow(radius: 7, x: 7, y: 7)
+                            VStack {
+                                Text("🤗")
+                                    .font(.largeTitle)
+                                    .padding(.bottom, 10)
                                 
-                            Text("컨텐츠에 정말 만족하셨군요!")
-                                .fontWeight(.heavy)
+                                Text("컨텐츠에 정말 만족하셨군요!")
+                                    .fontWeight(.heavy)
+                            }
                         }
                     }
                 }
+                .animation(.spring(), value: sliderValue)
             }
         }
     }
 }
 
-struct SliderView2_Previews: PreviewProvider {
+struct SliderView3_Previews: PreviewProvider {
     static var previews: some View {
-        SliderView2()
+        SliderView3()
     }
 }
+
+
+
