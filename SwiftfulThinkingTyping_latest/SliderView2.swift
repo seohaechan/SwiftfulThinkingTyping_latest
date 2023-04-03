@@ -68,38 +68,41 @@ struct SliderView2: View {
                 }
                 .navigationTitle("Rate the content")
                 
-                if sliderValue < 3.0 {
-                    ZStack{
-                        RoundedRectangle(cornerRadius: 15)
-                            .frame(width: 250, height: 100)
-                            .foregroundColor(.white)
-                            .shadow(radius: 7, x: 7, y: 7)
-                        VStack {
-                            Text("😟")
-                                .font(.largeTitle)
-                                .padding(.bottom, 10)
+                ZStack{
+                    if sliderValue < 3.0 {
+                        ZStack{
+                            RoundedRectangle(cornerRadius: 15)
+                                .frame(width: 250, height: 100)
+                                .foregroundColor(.white)
+                                .shadow(radius: 7, x: 7, y: 7)
+                            VStack {
+                                Text("😟")
+                                    .font(.largeTitle)
+                                    .padding(.bottom, 10)
                                 
-                            Text("컨텐츠가 마음에 들지 않으셨나요?")
-                                .fontWeight(.heavy)
+                                Text("컨텐츠가 마음에 들지 않으셨나요?")
+                                    .fontWeight(.heavy)
+                            }
                         }
-                    }
-                    
-                }else if sliderValue == 5 {
-                    ZStack{
-                        RoundedRectangle(cornerRadius: 15)
-                            .frame(width: 250, height: 100)
-                            .foregroundColor(.white)
-                            .shadow(radius: 7, x: 7, y: 7)
-                        VStack {
-                            Text("🤗")
-                                .font(.largeTitle)
-                                .padding(.bottom, 10)
+                        
+                    }else if sliderValue == 5 {
+                        ZStack{
+                            RoundedRectangle(cornerRadius: 15)
+                                .frame(width: 250, height: 100)
+                                .foregroundColor(.white)
+                                .shadow(radius: 7, x: 7, y: 7)
+                            VStack {
+                                Text("🤗")
+                                    .font(.largeTitle)
+                                    .padding(.bottom, 10)
                                 
-                            Text("컨텐츠에 정말 만족하셨군요!")
-                                .fontWeight(.heavy)
+                                Text("컨텐츠에 정말 만족하셨군요!")
+                                    .fontWeight(.heavy)
+                            }
                         }
                     }
                 }
+                .animation(Animation.default)
             }
         }
     }

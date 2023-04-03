@@ -96,6 +96,8 @@
 		38C708DE29D6CC1C0031B734 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C708DD29D6CC1C0031B734 /* SliderView.swift */; };
 		38C708E029D6D31D0031B734 /* SliderView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C708DF29D6D31D0031B734 /* SliderView2.swift */; };
 		38C708E229D6D8DC0031B734 /* SheetView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C708E129D6D8DC0031B734 /* SheetView2.swift */; };
+		38C708E429DA4E380031B734 /* DatePickerView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C708E329DA4E380031B734 /* DatePickerView3.swift */; };
+		38C708E629DA4FBB0031B734 /* StepperView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C708E529DA4FBB0031B734 /* StepperView3.swift */; };
 		38C76B4029D50997009F6814 /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C76B3F29D50997009F6814 /* TextEditorView.swift */; };
 		38C76B4229D51419009F6814 /* ToggleVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C76B4129D51419009F6814 /* ToggleVIew.swift */; };
 		38C76B4429D51994009F6814 /* ToggleView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C76B4329D51994009F6814 /* ToggleView2.swift */; };
@@ -202,6 +204,8 @@
 		38C708DD29D6CC1C0031B734 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		38C708DF29D6D31D0031B734 /* SliderView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView2.swift; sourceTree = "<group>"; };
 		38C708E129D6D8DC0031B734 /* SheetView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView2.swift; sourceTree = "<group>"; };
+		38C708E329DA4E380031B734 /* DatePickerView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView3.swift; sourceTree = "<group>"; };
+		38C708E529DA4FBB0031B734 /* StepperView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView3.swift; sourceTree = "<group>"; };
 		38C76B3F29D50997009F6814 /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorView.swift; sourceTree = "<group>"; };
 		38C76B4129D51419009F6814 /* ToggleVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleVIew.swift; sourceTree = "<group>"; };
 		38C76B4329D51994009F6814 /* ToggleView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView2.swift; sourceTree = "<group>"; };
@@ -341,8 +345,10 @@
 				38C76B4F29D65A10009F6814 /* ColorPickerView2.swift */,
 				38C76B4D29D658D6009F6814 /* DatePickerView.swift */,
 				38C708D729D6732C0031B734 /* DatePickerView2.swift */,
+				38C708E329DA4E380031B734 /* DatePickerView3.swift */,
 				38C708D929D699F30031B734 /* StepperView.swift */,
 				38C708DB29D6C9B30031B734 /* StepperView2.swift */,
+				38C708E529DA4FBB0031B734 /* StepperView3.swift */,
 				38C708DD29D6CC1C0031B734 /* SliderView.swift */,
 				38C708DF29D6D31D0031B734 /* SliderView2.swift */,
 				38AD0AF529D7136F001B97F8 /* SliderView3.swift */,
@@ -430,6 +436,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38C708E629DA4FBB0031B734 /* StepperView3.swift in Sources */,
 				3846BFCA29B6A86400AE8C11 /* HowToExtractSubviews2.swift in Sources */,
 				3857D5E529B5922200E4D371 /* ScrollViewView2.swift in Sources */,
 				38C76B4629D55150009F6814 /* ToggleView3.swift in Sources */,
@@ -516,6 +523,7 @@
 				381835F129CBDC8600E878D5 /* TransitionView3.swift in Sources */,
 				389C9F1129A771A900020F75 /* GradientPractice.swift in Sources */,
 				382BA2A329D00EF20023D059 /* AlertView3.swift in Sources */,
+				38C708E429DA4E380031B734 /* DatePickerView3.swift in Sources */,
 				3821BE3629B02EE0007F108D /* StacksView.swift in Sources */,
 				38C76B4A29D5595A009F6814 /* PickerView2.swift in Sources */,
 				386A8A1229D3FD82003AFD3A /* TextFieldView2.swift in Sources */,
