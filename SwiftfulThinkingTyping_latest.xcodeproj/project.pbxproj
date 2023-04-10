@@ -44,6 +44,10 @@
 		38257D1D29B5C71C00469FFE /* LazyVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38257D1C29B5C71C00469FFE /* LazyVGrid.swift */; };
 		38257D1F29B5D3DD00469FFE /* IgonoreSafeAreaAndEdgesIgnoringSafeAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38257D1E29B5D3DD00469FFE /* IgonoreSafeAreaAndEdgesIgnoringSafeAreaView.swift */; };
 		382BA2A329D00EF20023D059 /* AlertView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382BA2A229D00EF20023D059 /* AlertView3.swift */; };
+		3835CFA329DD326E002AA560 /* TabViewAndPageTabViewStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3835CFA229DD326E002AA560 /* TabViewAndPageTabViewStyleView.swift */; };
+		3835CFA529DD3EC6002AA560 /* TabViewAndPageTabViewStyleView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3835CFA429DD3EC6002AA560 /* TabViewAndPageTabViewStyleView2.swift */; };
+		3835CFA729DD4131002AA560 /* TabviewAndPageTabViewStyle3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3835CFA629DD4131002AA560 /* TabviewAndPageTabViewStyle3.swift */; };
+		3835CFA929DD59C1002AA560 /* TabViewAndPageTabStyleView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3835CFA829DD59C1002AA560 /* TabViewAndPageTabStyleView4.swift */; };
 		3845C23629B5D68D004FDF42 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845C23529B5D68D004FDF42 /* ButtonView.swift */; };
 		3845C23829B5EF23004FDF42 /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845C23729B5EF23004FDF42 /* StateView.swift */; };
 		3845C23A29B5FC09004FDF42 /* HowToExtractFunctionAndViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3845C23929B5FC09004FDF42 /* HowToExtractFunctionAndViewView.swift */; };
@@ -90,6 +94,7 @@
 		38BB675029ADD12D00B406A3 /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BB674F29ADD12D00B406A3 /* IconView.swift */; };
 		38BB675229AF2A5C00B406A3 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BB675129AF2A5C00B406A3 /* ImageView.swift */; };
 		38BB675429AF324F00B406A3 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BB675329AF324F00B406A3 /* FrameView.swift */; };
+		38C079E629E2C09900CBB2AD /* TabviewAndPageTabStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C079E529E2C09900CBB2AD /* TabviewAndPageTabStyleView.swift */; };
 		38C708D829D6732C0031B734 /* DatePickerView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C708D729D6732C0031B734 /* DatePickerView2.swift */; };
 		38C708DA29D699F30031B734 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C708D929D699F30031B734 /* StepperView.swift */; };
 		38C708DC29D6C9B30031B734 /* StepperView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C708DB29D6C9B30031B734 /* StepperView2.swift */; };
@@ -150,6 +155,10 @@
 		38257D1C29B5C71C00469FFE /* LazyVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGrid.swift; sourceTree = "<group>"; };
 		38257D1E29B5D3DD00469FFE /* IgonoreSafeAreaAndEdgesIgnoringSafeAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgonoreSafeAreaAndEdgesIgnoringSafeAreaView.swift; sourceTree = "<group>"; };
 		382BA2A229D00EF20023D059 /* AlertView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView3.swift; sourceTree = "<group>"; };
+		3835CFA229DD326E002AA560 /* TabViewAndPageTabViewStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewAndPageTabViewStyleView.swift; sourceTree = "<group>"; };
+		3835CFA429DD3EC6002AA560 /* TabViewAndPageTabViewStyleView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewAndPageTabViewStyleView2.swift; sourceTree = "<group>"; };
+		3835CFA629DD4131002AA560 /* TabviewAndPageTabViewStyle3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabviewAndPageTabViewStyle3.swift; sourceTree = "<group>"; };
+		3835CFA829DD59C1002AA560 /* TabViewAndPageTabStyleView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewAndPageTabStyleView4.swift; sourceTree = "<group>"; };
 		3845C23529B5D68D004FDF42 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		3845C23729B5EF23004FDF42 /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
 		3845C23929B5FC09004FDF42 /* HowToExtractFunctionAndViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToExtractFunctionAndViewView.swift; sourceTree = "<group>"; };
@@ -198,6 +207,7 @@
 		38BB674F29ADD12D00B406A3 /* IconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
 		38BB675129AF2A5C00B406A3 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		38BB675329AF324F00B406A3 /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
+		38C079E529E2C09900CBB2AD /* TabviewAndPageTabStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabviewAndPageTabStyleView.swift; sourceTree = "<group>"; };
 		38C708D729D6732C0031B734 /* DatePickerView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView2.swift; sourceTree = "<group>"; };
 		38C708D929D699F30031B734 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 		38C708DB29D6C9B30031B734 /* StepperView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView2.swift; sourceTree = "<group>"; };
@@ -352,6 +362,11 @@
 				38C708DD29D6CC1C0031B734 /* SliderView.swift */,
 				38C708DF29D6D31D0031B734 /* SliderView2.swift */,
 				38AD0AF529D7136F001B97F8 /* SliderView3.swift */,
+				3835CFA229DD326E002AA560 /* TabViewAndPageTabViewStyleView.swift */,
+				3835CFA429DD3EC6002AA560 /* TabViewAndPageTabViewStyleView2.swift */,
+				3835CFA629DD4131002AA560 /* TabviewAndPageTabViewStyle3.swift */,
+				3835CFA829DD59C1002AA560 /* TabViewAndPageTabStyleView4.swift */,
+				38C079E529E2C09900CBB2AD /* TabviewAndPageTabStyleView.swift */,
 				389C9EFA29A5D0A600020F75 /* Assets.xcassets */,
 				389C9EFC29A5D0A600020F75 /* Preview Content */,
 			);
@@ -438,11 +453,13 @@
 			files = (
 				38C708E629DA4FBB0031B734 /* StepperView3.swift in Sources */,
 				3846BFCA29B6A86400AE8C11 /* HowToExtractSubviews2.swift in Sources */,
+				3835CFA529DD3EC6002AA560 /* TabViewAndPageTabViewStyleView2.swift in Sources */,
 				3857D5E529B5922200E4D371 /* ScrollViewView2.swift in Sources */,
 				38C76B4629D55150009F6814 /* ToggleView3.swift in Sources */,
 				38BB675429AF324F00B406A3 /* FrameView.swift in Sources */,
 				381835FB29CC266E00E878D5 /* NavigationView3.swift in Sources */,
 				381835E729CAB6FC00E878D5 /* AnimationCurves2.swift in Sources */,
+				38C079E629E2C09900CBB2AD /* TabviewAndPageTabStyleView.swift in Sources */,
 				3845C23629B5D68D004FDF42 /* ButtonView.swift in Sources */,
 				38C76B4029D50997009F6814 /* TextEditorView.swift in Sources */,
 				386A8A1429D3FFF8003AFD3A /* TextFieldView3.swift in Sources */,
@@ -455,7 +472,9 @@
 				385A511729B9EBE000D3660F /* BindingView6.swift in Sources */,
 				38C76B4C29D57575009F6814 /* ColorPickerView.swift in Sources */,
 				389C9F0B29A601FA00020F75 /* ColorView.swift in Sources */,
+				3835CFA729DD4131002AA560 /* TabviewAndPageTabViewStyle3.swift in Sources */,
 				3845C23829B5EF23004FDF42 /* StateView.swift in Sources */,
+				3835CFA929DD59C1002AA560 /* TabViewAndPageTabStyleView4.swift in Sources */,
 				38C76B4429D51994009F6814 /* ToggleView2.swift in Sources */,
 				389C9F0D29A723DC00020F75 /* repeat0222.swift in Sources */,
 				381835DD29CA8C2000E878D5 /* AnimationView2.swift in Sources */,
@@ -509,6 +528,7 @@
 				3846BFC229B48C7300AE8C11 /* ForEachView3.swift in Sources */,
 				3857D5E929B5993D00E4D371 /* ScrollViewView4.swift in Sources */,
 				3821BE3829B02EF5007F108D /* StackZ.swift in Sources */,
+				3835CFA329DD326E002AA560 /* TabViewAndPageTabViewStyleView.swift in Sources */,
 				38BB675029ADD12D00B406A3 /* IconView.swift in Sources */,
 				38F8444B29D2A6A200FD3AB1 /* ActionSheetView.swift in Sources */,
 				381835F529CBE14C00E878D5 /* SheetView.swift in Sources */,
